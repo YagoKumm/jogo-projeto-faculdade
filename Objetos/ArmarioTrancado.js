@@ -1,7 +1,7 @@
-import { Objeto, Ferramenta } from "./Basicas.js";
-import { ChaveDeFenda } from "./ChaveDeFenda.js";
-import { CartaoDeAcesso } from "./CartaoDeAcesso.js";
-
+import { Objeto } from "../Basicas.js";
+import { ChaveDeFenda } from "../ferramentas/ChaveDeFenda.js";
+import { CartaoDeAcesso } from '../ferramentas/CartaoDeAcesso.js';
+ 
 export class ArmarioTrancado extends Objeto {
     constructor(engine) {
         super(
@@ -10,7 +10,7 @@ export class ArmarioTrancado extends Objeto {
             "O armário foi aberto e contém um cartão de acesso!"
         );
         this.engine = engine;
-        this.aberto = false;
+        this.aberto = false;     
     }
 
     usar(ferramenta) {

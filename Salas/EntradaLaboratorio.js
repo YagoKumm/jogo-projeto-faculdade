@@ -1,5 +1,5 @@
-import { Sala, Engine } from "./Basicas.js";
-import { ChaveDeFenda } from "./ChaveDeFenda.js";
+import { Sala, Engine } from "../Basicas.js";
+import { ChaveDeFenda } from "../ferramentas/ChaveDeFenda.js";
 
 export class EntradaLaboratorio extends Sala {
     constructor(engine) {

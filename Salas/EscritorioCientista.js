@@ -1,5 +1,5 @@
-import { Sala, Engine } from "./Basicas.js";
-import { ComputadorEncriptado } from "./ComputadorEncriptado.js";
+import { Sala, Engine } from "../Basicas.js";
+import { ComputadorEncriptado } from "../Objetos/ComputadorEncriptado.js";
 
 export class EscritorioCientista extends Sala {
     constructor(engine) {

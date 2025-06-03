@@ -1,4 +1,4 @@
-import { Ferramenta } from "./Basicas.js";
+import { Ferramenta } from "../Basicas.js";
 
 export class ChaveDeFenda extends Ferramenta {
     constructor() {

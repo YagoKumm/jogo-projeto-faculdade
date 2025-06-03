@@ -1,8 +1,8 @@
 import { Engine } from "./Basicas.js";
-import { EntradaLaboratorio } from "./EntradaLaboratorio.js";
-import { SalaDeExperimentos } from "./SalaDeExperimentos.js";
-import { EscritorioCientista } from "./EscritorioCientista.js";
-import { SalaDeControle } from "./SalaDeControle.js";
+import { EntradaLaboratorio } from "./Salas/EntradaLaboratorio.js";
+import { SalaDeExperimentos } from "./Salas/SalaDeExperimentos.js";
+import { EscritorioCientista } from "./Salas/EscritorioCientista.js";
+import { SalaDeControle } from "./Salas/SalaDeControle.js";
 
 export class JogoLaboratorio extends Engine {
     constructor() {

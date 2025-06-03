@@ -32,3 +32,32 @@ Seu objetivo é desativá-lo antes que ele colapse.
 
 ---
 
+## Ferramentas disponíveis no jogo
+
+- `chave_de_fenda` → usada para abrir armário e consertar o painel elétrico.
+- `cartao_de_acesso` → usado no painel de controle para desativar o sistema.
+
+---
+
+## Objetos interativos
+
+- `armario_trancado` → está trancado e guarda o cartão de acesso.
+- `painel_eletrico` → precisa ser consertado para ativar o sistema.
+- `computador` → contém a pista com o código (1234).
+- `painel_de_controle` → local onde se insere o código final para vencer.
+
+---
+
+## Salas do laboratório
+
+- `Entrada_do_Laboratorio` → sala inicial. Onde você encontra a chave de fenda.
+- `Sala_de_Experimentos` → tem o armário trancado e o painel elétrico.
+- `Escritorio_do_Cientista` → contém o computador com o código.
+- `Sala_de_Controle` → onde você insere o cartão e digita o código.
+
+---
+
+## Dicas
+
+- Os nomes devem ser digitados exatamente como aparecem acima (com underscores).
+- Você pode usar `inventario` para ver quais ferramentas já pegou.

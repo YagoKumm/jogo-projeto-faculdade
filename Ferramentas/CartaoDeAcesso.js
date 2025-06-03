@@ -1,4 +1,4 @@
-import { Ferramenta } from "./Basicas.js";
+import { Ferramenta } from "../Basicas.js";
 
 export class CartaoDeAcesso extends Ferramenta {
     constructor() {

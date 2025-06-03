@@ -1,6 +1,6 @@
-import { Sala, Engine } from "./Basicas.js";
-import { ArmarioTrancado } from "./ArmarioTrancado.js";
-import { PainelEletrico } from "./PainelEletrico.js";
+import { Sala, Engine } from "../Basicas.js";
+import { ArmarioTrancado } from '../Objetos/ArmarioTrancado.js';
+import { PainelEletrico } from "../Objetos/PainelEletrico.js";
 
 export class SalaDeExperimentos extends Sala {
     constructor(engine) {

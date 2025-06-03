@@ -1,4 +1,6 @@
-import { Objeto } from "./Basicas.js";
+import { Objeto } from "../Basicas.js";
+import promptSync from 'prompt-sync';
+const prompt = promptSync({ sigint: true });
 
 export class PainelDeControle extends Objeto {
     constructor(engine) {

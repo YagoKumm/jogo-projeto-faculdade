@@ -1,5 +1,5 @@
-import { Objeto } from "./Basicas.js";
-import { ChaveDeFenda } from "./ChaveDeFenda.js";
+import { Objeto } from "../Basicas.js";
+import { ChaveDeFenda } from "../ferramentas/ChaveDeFenda.js";
 
 export class PainelEletrico extends Objeto {
     constructor() {

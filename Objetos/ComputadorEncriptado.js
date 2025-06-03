@@ -1,4 +1,4 @@
-import { Objeto } from "./Basicas.js";
+import { Objeto } from "../Basicas.js";
 
 export class ComputadorEncriptado extends Objeto {
     constructor() {

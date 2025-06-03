@@ -1,6 +1,6 @@
-import { Sala, Engine } from "./Basicas.js";
-import { PainelDeControle } from "./PainelDeControle.js";
-import { CartaoDeAcesso } from "./CartaoDeAcesso.js";
+import { Sala, Engine } from "../Basicas.js";
+import { PainelDeControle } from "../Objetos/PainelDeControle.js";
+import { CartaoDeAcesso } from "../ferramentas/CartaoDeAcesso.js";
 
 export class SalaDeControle extends Sala {
     constructor(engine) {
